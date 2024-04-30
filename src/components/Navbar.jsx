@@ -1,5 +1,6 @@
 import { useState } from "react"
-import { logo, lock, hamburgerMenu, close } from "../assets"
+import { lock, hamburgerMenu, close } from "../assets"
+import logo from "../assets/newLogo.png"
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
@@ -8,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-[80px] bg-white border-b">
       <div className="md:max-w-[1480px] max-w-[600px] m-auto w-full h-full flex justify-between items-center md:px-0 px-4">
-        <img src={logo} className="h-[25px]" />
+        <img src={logo} className="h-[35px]" />
 
         <div className="hidden md:flex items-center ">
           <ul className="flex gap-4">
