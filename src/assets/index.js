@@ -14,6 +14,7 @@ import feedbackpho4 from "./feedbackpho4.webp"
 import feedbackpho5 from "./feedbackpho5.webp"
 import quotationMark from "./quotationMark.png"
 import cta from "./cta.png"
+import courseMl from "./course-ml.webp"
 
 export {
   hamburgerMenu,
@@ -30,4 +31,5 @@ export {
   feedbackpho4,
   feedbackpho5,
   newLogo,
+  courseMl,
 }

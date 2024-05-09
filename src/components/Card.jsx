@@ -30,3 +30,6 @@ Card.propTypes = {
 }
 
 export default Card
+
+//card.jsx, courses,js and course.jsx are the files that are being modified
+//把图片链接都改成下载到本地

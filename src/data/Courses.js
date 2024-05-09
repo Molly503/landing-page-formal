@@ -1,13 +1,15 @@
+import { courseMl } from "../assets/course-ml.webp"
+
 export const courses = [
   {
     id: 1,
     title: "The Complete Flutter Development Bootcamp with Dart",
-    category: "Flutter",
+    category: "Machine Learning",
     rating: 4,
     price: "$59.99",
-    linkImg:
-      "https://imgs.search.brave.com/YrWdDcc30vLk1ujOOb2T7YspGn9p6AsTC4LbTGaWiJI/rs:fit:480:270:1/g:ce/aHR0cHM6Ly93ZWVr/Y291cnNlcmV2aWV3/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAxOS8wNS9mbHV0/dGVyLWJvb3RjYW1w/LXdpdGgtZGFydC1p/bWcuanBn",
+    linkImg: courseMl,
   },
+  // the link img does not work
   {
     id: 2,
     title: "The Complete 2023 Web Development Bootcamp",
