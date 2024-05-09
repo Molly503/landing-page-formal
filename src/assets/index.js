@@ -1,6 +1,7 @@
 import hamburgerMenu from "./hamburgerMenu.svg"
 import close from "./close.svg"
-import logo from "./logo.svg"
+
+import newLogo from "../assets/newLogo.png"
 import lock from "./lock.svg"
 import heroImg from "./heroImg.png"
 
@@ -17,7 +18,6 @@ import cta from "./cta.png"
 export {
   hamburgerMenu,
   close,
-  logo,
   lock,
   heroImg,
   blogImg1,
@@ -29,4 +29,5 @@ export {
   feedbackpho3,
   feedbackpho4,
   feedbackpho5,
+  newLogo,
 }

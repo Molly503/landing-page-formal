@@ -33,7 +33,10 @@ const Categories = () => {
             icons={<TiHtml5 size={30} />}
             title={"Web Development"}
           />
-          <CategoryCard icons={<FaAws size={30} />} title={"AWS"} />
+          <CategoryCard
+            icons={<FaAws size={30} />}
+            title={"Amazon Web Services"}
+          />
           <CategoryCard
             icons={<HiOutlineBriefcase size={30} />}
             title={"Data Analysis"}

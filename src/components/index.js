@@ -5,5 +5,6 @@ import Courses from "./Courses"
 import Categories from "./Categories"
 import Feedback from "./Feedback"
 import CTA from "./CTA"
+import Footer from "./Footer"
 
-export { Navbar, Hero, Companies, Courses, Categories, Feedback, CTA }
+export { Navbar, Hero, Companies, Courses, Categories, Feedback, CTA, Footer }
