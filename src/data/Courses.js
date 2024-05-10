@@ -1,38 +1,41 @@
-import { courseMl } from "../assets/course-ml.webp"
+import courseAi from "../assets/course-ai.webp"
+import courseWeb from "../assets/course-web.webp"
+import coursePython from "../assets/course-python.webp"
+import courseCyber from "../assets/course-cyber.webp"
+import courseGen from "../assets/course-gen.webp"
+import courseAws from "../assets/course-aws.webp"
+import courseMl from "../assets/course-ml.webp"
 
 export const courses = [
   {
     id: 1,
-    title: "The Complete Flutter Development Bootcamp with Dart",
-    category: "Machine Learning",
-    rating: 4,
+    title: "Artificial Intelligence for Everybody",
+    category: "AI",
+    rating: 5,
     price: "$59.99",
-    linkImg: courseMl,
+    linkImg: courseAi,
   },
-  // the link img does not work
   {
     id: 2,
-    title: "The Complete 2023 Web Development Bootcamp",
+    title: "Web Development Bootcamp",
     category: "Web Dev",
     rating: 4,
     price: "$59.99",
-    linkImg:
-      "https://imgs.search.brave.com/ZkwGbElTOq8Zo7NeRU669-o016O6XSLJftZZ5I--HJg/rs:fit:750:422:1/g:ce/aHR0cHM6Ly9kaXNj/b3VudHNlcmllcy5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjAvMTEvMTAwLWRh/eXMtb2YtY29kZS10/aGUtY29tcGxldGUt/cHl0aG9uLXByby1i/b290Y2FtcC1mb3It/MjAyMi1jb3Vyc2Uu/anBn",
+    linkImg: courseWeb,
   },
   {
     id: 3,
     title:
-      "Learn Python: The Complete Python Programming CourseLearn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
-    category: "Python",
+      "Learn Python: From the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
+    category: "Data Analysis",
     rating: 4,
     price: "$59.99",
-    linkImg:
-      "https://imgs.search.brave.com/Nhj_cLAZOWcUjlnR8QMX8A02rX-2RYra9w-0j-B9Rbg/rs:fit:750:422:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2IxLzJi/L2NjL2IxMmJjYzA4/YmQ4YzlhOTFjMmM5/NjY3ZTM5NzE1NzA0/LmpwZw",
+    linkImg: coursePython,
   },
   {
     id: 4,
-    title: "The Complete JavaScript Course 2023: From Zero to Expert!",
-    category: "Javascript",
+    title: "JavaScript: From Zero to Expert!",
+    category: "Web Dev",
     rating: 4,
     price: "$59.99",
     linkImg:
@@ -40,39 +43,35 @@ export const courses = [
   },
   {
     id: 5,
-    title: "Cuphead",
-    category: "Flutter",
+    title: "Google Cybersecurity Professional Certificate",
+    category: "Cyber Security",
     rating: 4,
     price: "$19.99",
-    linkImg:
-      "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/c/cuphead-switch/hero?_a=AJADJWI0",
+    linkImg: courseCyber,
   },
   {
     id: 6,
-    title: "Minecraft",
-    category: "Flutter",
+    title: "Generative AI Foundations: Getting Started",
+    category: "Generative AI",
     rating: 4,
     price: "$29.99",
-    linkImg:
-      "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/m/minecraft-switch/hero?_a=AJADJWI0",
+    linkImg: courseGen,
   },
   {
     id: 7,
-    title: "Mario + Rabbids® Kingdom Battle",
-    category: "Flutter",
+    title: "AWS Fundamentals Specialization",
+    category: "AWS",
     rating: 4,
     price: "$59.99",
-    linkImg:
-      "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/u/unravel-two-switch/hero?_a=AJADJWI0",
+    linkImg: courseAws,
   },
   {
     id: 8,
-    title: "Unravel Two",
-    category: "Flutter",
+    title: "IBM Machine Learning",
+    category: "Machine Learning",
     rating: 4,
     price: "$59.99",
     sale: 63,
-    linkImg:
-      "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/u/unravel-two-switch/hero?_a=AJADJWI0",
+    linkImg: courseMl,
   },
 ]

@@ -13,7 +13,7 @@ import feedbackpho3 from "./feedbackpho3.webp"
 import feedbackpho4 from "./feedbackpho4.webp"
 import feedbackpho5 from "./feedbackpho5.webp"
 import quotationMark from "./quotationMark.png"
-import cta from "./cta.png"
+
 import courseMl from "./course-ml.webp"
 
 export {
@@ -25,7 +25,6 @@ export {
   achievement,
   avatar,
   quotationMark,
-  cta,
   feedbackpho2,
   feedbackpho3,
   feedbackpho4,

@@ -1,4 +1,3 @@
-// Remove the unused import statement for React
 import Card from "./Card"
 import Slider from "react-slick"
 import { courses } from "../data/Courses"
@@ -23,8 +22,10 @@ const Courses = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: false,
+          dots: true,
         },
       },
       {
@@ -32,8 +33,13 @@ const Courses = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          infinite: false,
+          dots: true,
         },
       },
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
     ],
   }
 
@@ -42,10 +48,10 @@ const Courses = () => {
       <div className="md:max-w-[1480px] m-auto max-w-[600px]  px-4 md:px-0">
         <div className="py-4">
           <h1 className="py-3 text-3xl font-bold">
-            Popular <span className="text-[#20B486]">Courses</span>
+            Most Popular <span className="text-[#20B486]">Courses</span>
           </h1>
           <p className="text-[#6D737A]">
-            {/* Various versions have evolved over the years, sometimes by accident. */}
+            Various versions have evolved over the years, sometimes by accident.
           </p>
         </div>
 

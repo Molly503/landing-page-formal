@@ -1,10 +1,10 @@
-import { cta } from "../assets"
+import imgJoin from "../assets/img-join.webp"
 
 const CTA = () => {
   return (
     <div className="w-full bg-[#E9F8F3] py-20">
       <div className="md:max-w-[1480px] m-auto grid md:grid-cols-2 gap-8 max-w-[600px] items-center">
-        <img src={cta} className="w-[650px] mx-auto" />
+        <img src={imgJoin} className="w-[650px] mx-auto" />
 
         <div>
           <h1 className="py-2 md:text-3xl  font-semibold ">
