@@ -29,7 +29,7 @@ export const courses = [
       "Learn Python: From the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
     category: "Data Analysis",
     rating: 4,
-    price: "$20.00",
+    price: "$30.00",
     linkImg: coursePython,
   },
   {
@@ -37,7 +37,7 @@ export const courses = [
     title: "JavaScript: From Zero to Expert!",
     category: "Web Dev",
     rating: 4,
-    price: "$20.00",
+    price: "$30.00",
     linkImg:
       "https://imgs.search.brave.com/ERyn_YUVTbB0slaulPioLMmU7Zto9A8aCA6OPptRZkI/rs:fit:768:432:1/g:ce/aHR0cHM6Ly9jb3Vy/c2Vjb3Vwb25jbHVi/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMS8wMy84NTE3/MTJfZmM2MV82LTc2/OHg0MzIuanBn",
   },

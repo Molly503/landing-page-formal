@@ -1,5 +1,3 @@
-import StarRating from "./StarRating"
-
 import PropTypes from "prop-types"
 
 const Card = ({ course }) => {
@@ -8,7 +6,6 @@ const Card = ({ course }) => {
       <img src={course.linkImg} className="h-40 w-full object-cover" />
       <div className="p-5 border border-b">
         <h1 className="py-2 truncate">{course.title}</h1>
-        <StarRating rating={course.rating} />
       </div>
       <h3 className="p-5 text-xl">{course.price}</h3>
 
@@ -23,7 +20,7 @@ Card.propTypes = {
   course: PropTypes.shape({
     linkImg: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
-    rating: PropTypes.number.isRequired,
+
     price: PropTypes.string.isRequired,
     category: PropTypes.string.isRequired,
   }).isRequired,
