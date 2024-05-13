@@ -14,10 +14,7 @@ const Hero = () => {
             Access to <span className="text-[#20B486] ">800+ </span>Courses from
             <span className="text-[#20B486] ">100</span> Instructors
           </h1>
-          <p className="py-2 text-lg text-gray-600 p-4">
-            Various versions have evolved over the years
-            {/* can i say sth else */}
-          </p>
+
           <form className="bg-white max-w-[700px] p-4 input-bx-shadow shadow-lg rounded-md flex justify-between">
             <input
               className="bg-white "

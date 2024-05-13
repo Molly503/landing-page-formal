@@ -1,11 +1,8 @@
 import { newLogo } from "../assets"
-import {
-  FaFacebookF,
-  FaDribbble,
-  FaLinkedinIn,
-  FaInstagram,
-  FaBehance,
-} from "react-icons/fa"
+import { FaLinkedinIn, FaInstagram } from "react-icons/fa"
+import { IoLogoWechat } from "react-icons/io5"
+import { FaWeibo } from "react-icons/fa"
+import { FaTwitter } from "react-icons/fa"
 
 const Footer = () => {
   return (
@@ -14,20 +11,18 @@ const Footer = () => {
         <div className="col-span-2">
           <img src={newLogo} className="h-[25px]" />
           <h3 className="text-2xl font-bold mt-10">Contact Us</h3>
-          <h3 className="py-2 text-[#6D737A]">Call : +86 5400 5123</h3>
-          <h3 className="py-2 text-[#6D737A]">
-            Email: techtutor_service@gmail.com
-          </h3>
+
+          <h3 className="py-2 text-[#6D737A]">Email: liangj@tcd.ie</h3>
           <br />
           <br />
           <br />
 
           <div className="flex gap-4 py-4">
             <div className="p-4 bg-[#E9F8F3] rounded-xl">
-              <FaFacebookF size={25} style={{ color: "#4DC39E" }} />
+              <FaTwitter size={25} style={{ color: "#4DC39E" }} />
             </div>
             <div className="p-4 bg-[#E9F8F3] rounded-xl">
-              <FaDribbble size={25} style={{ color: "#4DC39E" }} />
+              <IoLogoWechat size={25} style={{ color: "#4DC39E" }} />
             </div>
             <div className="p-4 bg-[#E9F8F3] rounded-xl">
               <FaLinkedinIn size={25} style={{ color: "#4DC39E" }} />
@@ -36,7 +31,7 @@ const Footer = () => {
               <FaInstagram size={25} style={{ color: "#4DC39E" }} />
             </div>
             <div className="p-4 bg-[#E9F8F3] rounded-xl">
-              <FaBehance size={25} style={{ color: "#4DC39E" }} />
+              <FaWeibo size={25} style={{ color: "#4DC39E" }} />
             </div>
           </div>
         </div>

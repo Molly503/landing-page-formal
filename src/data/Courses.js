@@ -12,7 +12,7 @@ export const courses = [
     title: "Artificial Intelligence for Everybody",
     category: "AI",
     rating: 5,
-    price: "$59.99",
+    price: "$50.00",
     linkImg: courseAi,
   },
   {
@@ -20,7 +20,7 @@ export const courses = [
     title: "Web Development Bootcamp",
     category: "Web Dev",
     rating: 4,
-    price: "$59.99",
+    price: "$35.00",
     linkImg: courseWeb,
   },
   {
@@ -29,7 +29,7 @@ export const courses = [
       "Learn Python: From the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
     category: "Data Analysis",
     rating: 4,
-    price: "$59.99",
+    price: "$20.00",
     linkImg: coursePython,
   },
   {
@@ -37,7 +37,7 @@ export const courses = [
     title: "JavaScript: From Zero to Expert!",
     category: "Web Dev",
     rating: 4,
-    price: "$59.99",
+    price: "$20.00",
     linkImg:
       "https://imgs.search.brave.com/ERyn_YUVTbB0slaulPioLMmU7Zto9A8aCA6OPptRZkI/rs:fit:768:432:1/g:ce/aHR0cHM6Ly9jb3Vy/c2Vjb3Vwb25jbHVi/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMS8wMy84NTE3/MTJfZmM2MV82LTc2/OHg0MzIuanBn",
   },
@@ -46,7 +46,7 @@ export const courses = [
     title: "Google Cybersecurity Professional Certificate",
     category: "Cyber Security",
     rating: 4,
-    price: "$19.99",
+    price: "$30.00",
     linkImg: courseCyber,
   },
   {
@@ -54,7 +54,7 @@ export const courses = [
     title: "Generative AI Foundations: Getting Started",
     category: "Generative AI",
     rating: 4,
-    price: "$29.99",
+    price: "$30.00",
     linkImg: courseGen,
   },
   {
@@ -62,7 +62,7 @@ export const courses = [
     title: "AWS Fundamentals Specialization",
     category: "AWS",
     rating: 4,
-    price: "$59.99",
+    price: "$30.00",
     linkImg: courseAws,
   },
   {
@@ -70,7 +70,7 @@ export const courses = [
     title: "IBM Machine Learning",
     category: "Machine Learning",
     rating: 4,
-    price: "$59.99",
+    price: "$40.00",
     sale: 63,
     linkImg: courseMl,
   },
