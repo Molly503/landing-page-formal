@@ -5,7 +5,6 @@ import {
   Courses,
   Categories,
   Feedback,
-  CTA,
   Footer,
 } from "./components"
 import "./App.css"
@@ -19,7 +18,7 @@ const App = () => {
       <Courses />
       <Categories />
       <Feedback />
-      <CTA />
+
       <Footer />
     </div>
   )
