@@ -15,7 +15,10 @@ const Navbar = () => {
         <div className="hidden md:flex items-center ">
           <ul className="flex gap-4">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/Hero">Home</Link>
+            </li>
+            <li>
+              <Link to="/Companies">Clients</Link>
             </li>
 
             <li>
