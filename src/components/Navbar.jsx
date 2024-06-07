@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { lock, hamburgerMenu, close } from "../assets"
 import logo from "../assets/newLogo.png"
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
@@ -13,12 +14,24 @@ const Navbar = () => {
 
         <div className="hidden md:flex items-center ">
           <ul className="flex gap-4">
-            <li>Home</li>
-            <li>About</li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
 
-            <li>Courses</li>
+            <li>
+              <Link to="/Courses">Courses</Link>
+            </li>
+            <li>
+              <Link to="/Categories">Categories</Link>
+            </li>
             <li>Pro</li>
-            <li>Support</li>
+            {/* set payment for Pro */}
+            <li>
+              <Link to="/Feedback">Feedback</Link>
+            </li>
+            <li>
+              <Link to="/Footer">Support</Link>
+            </li>
           </ul>
         </div>
 
