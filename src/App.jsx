@@ -9,23 +9,10 @@ import {
 } from "./components"
 import "./App.css"
 
-function App() {
-  let component
-  switch (window.location.pathname) {
-    case "/":
-      component = <Hero />
-      break
-    case "/Courses":
-      component = <Courses />
-      break
-    case "/Footer":
-      component = <Footer />
-      break
-  }
+const App = () => {
   return (
     <div>
       <Navbar />
-      {component}
       <Hero />
       <Companies />
       <Courses />
