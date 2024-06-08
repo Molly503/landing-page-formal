@@ -6,6 +6,7 @@ import {
   Categories,
   Feedback,
   Footer,
+  Register,
 } from "./components"
 import "./App.css"
 import { Route, Routes } from "react-router-dom"
@@ -21,11 +22,13 @@ const App = () => {
         <Route path="/Categories" element={<Categories />}></Route>
         <Route path="/Feedback" element={<Feedback />}></Route>
       </Routes>
+      <main className="App">
+        <Register />
+      </main>
+      {/* register 的位置是否需要调整 */}
       <Footer />
     </div>
   )
 }
 
 export default App
-
-// logo set home page link
