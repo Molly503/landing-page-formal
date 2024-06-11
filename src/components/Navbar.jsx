@@ -85,7 +85,7 @@ const Navbar = () => {
               Login
             </button>
             <button className="px-8 py-5 rounded-md bg-[#20B486] text-white font-bold">
-              Sign Up For Free
+              <Link to="/Register">Sign Up For Free</Link>
             </button>
           </div>
         </ul>

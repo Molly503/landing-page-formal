@@ -6,6 +6,7 @@ import {
   Categories,
   Feedback,
   Footer,
+  Register,
 } from "./components"
 import "./App.css"
 import { Route, Routes } from "react-router-dom"
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/Courses" element={<Courses />}></Route>
         <Route path="/Categories" element={<Categories />}></Route>
         <Route path="/Feedback" element={<Feedback />}></Route>
+        <Route path="/Register" element={<Register />}></Route>
       </Routes>
       <Footer />
     </div>
