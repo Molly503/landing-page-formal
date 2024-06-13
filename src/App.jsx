@@ -9,6 +9,7 @@ import {
   Register,
 } from "./components"
 import "./App.css"
+import "./Register.css"
 import { Route, Routes } from "react-router-dom"
 
 const App = () => {
