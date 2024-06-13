@@ -6,6 +6,18 @@ import Categories from "./Categories"
 import Feedback from "./Feedback"
 import CTA from "./CTA"
 import Footer from "./Footer"
+import Register from "./Register"
+import Login from "./Login"
 
-export { Navbar, Hero, Companies, Courses, Categories, Feedback, CTA, Footer }
-
+export {
+  Navbar,
+  Hero,
+  Companies,
+  Courses,
+  Categories,
+  Feedback,
+  CTA,
+  Footer,
+  Register,
+  Login,
+}
