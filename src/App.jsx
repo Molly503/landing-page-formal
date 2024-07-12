@@ -11,6 +11,7 @@ import "./App.css"
 import { Route, Routes } from "react-router-dom"
 import SignIn from "./components/auth/SignIn"
 import SignUp from "./components/auth/SignUp"
+import AuthDetails from "./components/AuthDetails"
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
       <Footer />
       <SignIn />
       <SignUp />
+      <AuthDetails />
       <br />
       <br />
       <br />
