@@ -9,6 +9,7 @@ import {
 } from "./components"
 import "./App.css"
 import { Route, Routes } from "react-router-dom"
+import SignIn from "./components/auth/SignIn"
 
 const App = () => {
   return (
@@ -21,7 +22,14 @@ const App = () => {
         <Route path="/Categories" element={<Categories />}></Route>
         <Route path="/Feedback" element={<Feedback />}></Route>
       </Routes>
+
       <Footer />
+      <SignIn />
+      <br />
+      <br />
+      <br />
+      <br />
+      {/* remember to delete */}
     </div>
   )
 }

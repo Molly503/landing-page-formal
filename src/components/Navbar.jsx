@@ -2,6 +2,7 @@ import { useState } from "react"
 import { lock, hamburgerMenu, close } from "../assets"
 import logo from "../assets/newLogo.png"
 import { Link } from "react-router-dom"
+import SignIn from "./auth/SignIn"
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
