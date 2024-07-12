@@ -10,6 +10,7 @@ import {
 import "./App.css"
 import { Route, Routes } from "react-router-dom"
 import SignIn from "./components/auth/SignIn"
+import SignUp from "./components/auth/SignUp"
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
 
       <Footer />
       <SignIn />
+      <SignUp />
       <br />
       <br />
       <br />
