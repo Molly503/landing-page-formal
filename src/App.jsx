@@ -8,11 +8,10 @@ import {
   Footer,
   SignIn,
   SignUp,
+  AuthDetails,
 } from "./components"
 import "./App.css"
 import { Route, Routes } from "react-router-dom"
-
-import AuthDetails from "./components/AuthDetails"
 
 const App = () => {
   return (
@@ -25,12 +24,13 @@ const App = () => {
         <Route path="/Categories" element={<Categories />}></Route>
         <Route path="/Feedback" element={<Feedback />}></Route>
         <Route path="/SignIn" element={<SignIn />}></Route>
+        <Route path="/AuthDetails" element={<AuthDetails />}></Route>
         <Route path="/SignUp" element={<SignUp />}></Route>
       </Routes>
 
       <Footer />
 
-      <AuthDetails />
+      {/* <AuthDetails /> */}
       {/* should be displayed in the upper right corner of the Navbar component. */}
       <br />
       <br />
