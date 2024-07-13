@@ -1,4 +1,4 @@
-import { onAuthStateChanged } from "firebase/auth"
+import { onAuthStateChanged, signOut } from "firebase/auth"
 import { useEffect, useState } from "react"
 import { auth } from "../firebase"
 
@@ -12,8 +12,33 @@ const AuthDetails = () => {
         setAuthUser(null)
       }
     })
+    return () => {
+      listen()
+    }
   }, [])
-  return <div>{authUser ? <p>Signed In</p> : <p>Signed Out</p>}</div>
+
+  const userSignOut = () => {
+    signOut(auth)
+      .then(() => {
+        console.log("Signed Out Successfully")
+      })
+      .catch(error => {
+        console.log(error)
+      })
+  }
+
+  return (
+    <div>
+      {authUser ? (
+        <>
+          <p>{`Signed In as ${authUser.email}`}</p>
+          <button onClick={userSignOut}>Signed Out</button>
+        </>
+      ) : (
+        <p>Signed Out</p>
+      )}
+    </div>
+  )
 }
 
 export default AuthDetails
