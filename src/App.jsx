@@ -6,11 +6,12 @@ import {
   Categories,
   Feedback,
   Footer,
+  SignIn,
+  SignUp,
 } from "./components"
 import "./App.css"
 import { Route, Routes } from "react-router-dom"
-import SignIn from "./components/auth/SignIn"
-import SignUp from "./components/auth/SignUp"
+
 import AuthDetails from "./components/AuthDetails"
 
 const App = () => {
@@ -23,12 +24,14 @@ const App = () => {
         <Route path="/Courses" element={<Courses />}></Route>
         <Route path="/Categories" element={<Categories />}></Route>
         <Route path="/Feedback" element={<Feedback />}></Route>
+        <Route path="/SignIn" element={<SignIn />}></Route>
+        <Route path="/SignUp" element={<SignUp />}></Route>
       </Routes>
 
       <Footer />
-      <SignIn />
-      <SignUp />
+
       <AuthDetails />
+      {/* should be displayed in the upper right corner of the Navbar component. */}
       <br />
       <br />
       <br />

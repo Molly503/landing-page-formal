@@ -2,7 +2,6 @@ import { useState } from "react"
 import { lock, hamburgerMenu, close } from "../assets"
 import logo from "../assets/newLogo.png"
 import { Link } from "react-router-dom"
-import SignIn from "./auth/SignIn"
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
@@ -39,10 +38,10 @@ const Navbar = () => {
         <div className="hidden md:flex">
           <button className="flex justify-between items-center  bg-transparent  px-6 gap-2">
             <img src={lock} />
-            Login
+            <Link to="/SignIn"> Login </Link>
           </button>
           <button className="px-8 py-3 rounded-md bg-[#20B486] text-white font-bold">
-            Sign Up
+            <Link to="/SignUp"> Sign Up </Link>
           </button>
         </div>
 
@@ -83,11 +82,13 @@ const Navbar = () => {
           <div className="flex flex-col my-4 gap-4">
             <button className="border border-[20B486] flex justify-center items-center  bg-transparent  px-6 gap-2 py-4">
               <img src={lock} />
-              Login
+              <Link to="/SignIn"> Login</Link>
             </button>
-            <button className="px-8 py-5 rounded-md bg-[#20B486] text-white font-bold">
-              Sign Up For Free
-            </button>
+            <Link to="/SignUp">
+              <button className="px-8 py-5 rounded-md bg-[#20B486] text-white font-bold">
+                Sign Up For Free
+              </button>
+            </Link>
           </div>
         </ul>
       </div>
