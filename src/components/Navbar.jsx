@@ -106,13 +106,18 @@ const Navbar = () => {
             <AuthDetails />
             {!authUser && (
               <>
-                <button className="border border-[20B486] flex justify-center items-center  bg-transparent  px-6 gap-2 py-4">
-                  <img src={lock} />
-                  <Link to="/SignIn"> Login </Link>
-                </button>
-                <button className="px-8 py-5 rounded-md bg-[#20B486] text-white font-bold">
-                  <Link to="/SignUp"> Sign Up </Link>
-                </button>
+                {/* <button className="border border-[20B486] flex justify-center items-center  bg-transparent  px-6 gap-2 py-4"> */}
+                <div className="flex flex-col my-4 gap-4">
+                  {/* <button className="flex justify-between items-center bg-transparent px-6 gap-2"> */}
+                  <button className="border border-[20B486] flex justify-center items-center  bg-transparent  px-6 gap-2 py-4">
+                    <img src={lock} />
+                    <Link to="/SignIn"> Login </Link>
+                  </button>
+                  {/* <button className="px-8 py-5 rounded-md bg-[#20B486] text-white font-bold"> */}
+                  <button className="px-8 py-3 rounded-md bg-[#20B486] text-white font-bold">
+                    <Link to="/SignUp"> Sign Up </Link>
+                  </button>
+                </div>
               </>
             )}
           </div>

@@ -28,14 +28,21 @@ const AuthDetails = () => {
   }
 
   return (
-    <div>
+    <div className="hidden md:flex">
       {authUser ? (
         <>
-          <p>{`Signed In as ${authUser.email}`}</p>
-          <button onClick={userSignOut}>Sign Out</button>
+          <p className="flex justify-between items-center  bg-transparent  px-6 gap-2">{`Signed In as ${authUser.email}`}</p>
+          <button
+            onClick={userSignOut}
+            className="px-8 py-3 rounded-md bg-[#20B486] text-white font-bold"
+          >
+            Sign Out
+          </button>
         </>
       ) : (
-        <p>Signed Out</p>
+        <p className="px-8 py-3 rounded-md bg-[#20B486] text-white font-bold">
+          Signed Out
+        </p>
       )}
     </div>
   )
