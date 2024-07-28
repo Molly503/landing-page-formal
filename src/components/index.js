@@ -9,6 +9,7 @@ import Footer from "./Footer"
 import SignIn from "./auth/SignIn"
 import SignUp from "./auth/SignUp"
 import AuthDetails from "./AuthDetails"
+import Cart from "./Cart"
 
 export {
   Navbar,
@@ -22,4 +23,5 @@ export {
   SignIn,
   SignUp,
   AuthDetails,
+  Cart,
 }

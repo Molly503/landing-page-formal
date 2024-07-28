@@ -9,6 +9,7 @@ import {
   SignIn,
   SignUp,
   AuthDetails,
+  Cart,
 } from "./components"
 import "./App.css"
 import { Route, Routes } from "react-router-dom"
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/Courses" element={<Courses />}></Route>
         <Route path="/Categories" element={<Categories />}></Route>
         <Route path="/Feedback" element={<Feedback />}></Route>
+        <Route path="/Cart" element={<Cart />}></Route>
         <Route path="/SignIn" element={<SignIn />}></Route>
         <Route path="/AuthDetails" element={<AuthDetails />}></Route>
         <Route path="/SignUp" element={<SignUp />}></Route>
